@@ -3,6 +3,23 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 '''
+Enoncé:
+• NC101 – Understand what is numerical computing (+1)
+• PP401 – Use Numpy to represent multidimensional arrays and perform operations with them
+(+1)
+• PP411 – Draw a simple plot representing data with Matplotlib
+
+1. Select a dataset and imagine the visualisation you want to build from it (line plot, scatter,
+histogram, etc.)
+2. Write and test a program that reads the dataset and create the plot with Matplotlib.
+3. Explain to the teacher how you designed your code and make a demonstration.
+
+In this coding assessment, you have to use the Matplotlib module to draw a plot to visualise data. You
+have to use a dataset from the The Belgian Open Data Initiative portal (https://data.gov.be/en). For
+example, you may want to plot the evolution of the number of accidents in 2018 1 with time.
+
+--------------------------------------------------------------------------------------------------
+
 Pour cette mission j'ai décidé de représenter un graphique lié avec notre triste situation sanitaire
 L'axe des y représentant les semaines depuis le début de la pandémie
 L'axe des x , le Nombre de personne sous aide-respiratoire

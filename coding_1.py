@@ -5,6 +5,20 @@ import matplotlib.image as mprimg
 from math import sqrt
 
 '''
+Enoncé:
+NC101 – Understand what is numerical computing (+1)
+PP401 – Use Numpy to represent multidimensional arrays and perform operations with them
+(+1)
+NC490 – Solve a given basic problem with the Scipy ecosystem
+
+In this coding assessment, you have to modify an existing Python program that loads a picture and
+performs a transformation on it.
+
+1. Write and test your own picture transformation program.
+2. Explain to the teacher how you designed your code and make a demonstration.
+
+-----------------------------------
+
 Pour cette mission j'ai décidé de faire plusieurs transformations sur une photo d'origine j'ai utilisé matplotlib ayant trouver plus d'info à son sujet:
 1ère modification:
 - je fais un dot product entre une matrice représentant un ton de gris et l'image du tigre pour "griser" celle-ci et crée un nouvelle image
@@ -13,7 +27,7 @@ Pour cette mission j'ai décidé de faire plusieurs transformations sur une phot
 - On ne va afficher que les pixels qui dépassent une certaine valeur de 0 à 255, en fonction de la valeur l'image paraitra clair ou sombre
 
 3ème modification:
--L'image négative de la photo original, pour avoir une photo négative il suffit d'inverser les valeurs des pilxels
+-L'image négative de la photo original, pour avoir une photo négative il suffit d'inverser les valeurs des pixels
 
 4ème modification:
 -On va afficher les pixels qui sont en dehors d'une fonction donnée ici un cercle

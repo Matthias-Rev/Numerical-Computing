@@ -7,6 +7,20 @@ jour=0
 x=0
 
 '''
+Enoncé:
+• PP411 – Draw a simple plot representing data with Matplotlib (+2)
+• PP431 – Select the appropriate algorithm of the Scipy module to solve a problem (+2)
+• NC490 – Solve a given basic problem with the Scipy ecosystem (+1)
+
+In this coding assessment, you have to fir a function to a scatter plot, by finding the optimal parameters.
+You have to use a dataset from any source of Open Data 1 that can be drawn as a scatter plot.
+
+1. Select a dataset from an Open Data source and draw it as a scatter plot.
+2. Select a function that may fit the data and choose a function from the SciPy ecosystem (such as
+numpy.polyfit, scipy.optimize.curve_fit, or interpolations).
+3. Explain to the teacher how you designed your code and make a demonstration.
+
+------------------------------------------------------------------------------
 Dans cet exo:
 y-axis -> Nombre de personnne sous aide respiratoire
 x-axis -> Nombre de jour passée depuis le début de l'épidemie
